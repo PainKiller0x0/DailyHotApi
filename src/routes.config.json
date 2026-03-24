@@ -1,0 +1,285 @@
+{
+  "description": "路由配置：true=默认启用，false=默认禁用（需手动开启）",
+  "routes": {
+    "weibo": {
+      "enabled": true,
+      "name": "微博",
+      "category": "社交"
+    },
+    "zhihu": {
+      "enabled": true,
+      "name": "知乎",
+      "category": "社交"
+    },
+    "baidu": {
+      "enabled": true,
+      "name": "百度",
+      "category": "搜索"
+    },
+    "bilibili": {
+      "enabled": true,
+      "name": "哔哩哔哩",
+      "category": "视频"
+    },
+    "douyin": {
+      "enabled": true,
+      "name": "抖音",
+      "category": "视频"
+    },
+    "toutiao": {
+      "enabled": true,
+      "name": "今日头条",
+      "category": "新闻"
+    },
+    "github": {
+      "enabled": true,
+      "name": "GitHub",
+      "category": "技术"
+    },
+    "v2ex": {
+      "enabled": true,
+      "name": "V2EX",
+      "category": "技术"
+    },
+    "acfun": {
+      "enabled": false,
+      "name": "AcFun",
+      "category": "视频"
+    },
+    "douban-movie": {
+      "enabled": false,
+      "name": "豆瓣电影",
+      "category": "娱乐"
+    },
+    "douban-group": {
+      "enabled": false,
+      "name": "豆瓣小组",
+      "category": "社交"
+    },
+    "tieba": {
+      "enabled": false,
+      "name": "百度贴吧",
+      "category": "社交"
+    },
+    "sspai": {
+      "enabled": false,
+      "name": "少数派",
+      "category": "技术"
+    },
+    "ithome": {
+      "enabled": false,
+      "name": "IT之家",
+      "category": "技术"
+    },
+    "ithome-xijiayi": {
+      "enabled": false,
+      "name": "IT之家喜加一",
+      "category": "游戏"
+    },
+    "jianshu": {
+      "enabled": false,
+      "name": "简书",
+      "category": "阅读"
+    },
+    "guokr": {
+      "enabled": false,
+      "name": "果壳",
+      "category": "科技"
+    },
+    "thepaper": {
+      "enabled": false,
+      "name": "澎湃新闻",
+      "category": "新闻"
+    },
+    "36kr": {
+      "enabled": false,
+      "name": "36氪",
+      "category": "科技"
+    },
+    "51cto": {
+      "enabled": false,
+      "name": "51CTO",
+      "category": "技术"
+    },
+    "csdn": {
+      "enabled": false,
+      "name": "CSDN",
+      "category": "技术"
+    },
+    "nodeseek": {
+      "enabled": false,
+      "name": "NodeSeek",
+      "category": "技术"
+    },
+    "juejin": {
+      "enabled": false,
+      "name": "掘金",
+      "category": "技术"
+    },
+    "qq-news": {
+      "enabled": false,
+      "name": "腾讯新闻",
+      "category": "新闻"
+    },
+    "sina": {
+      "enabled": false,
+      "name": "新浪",
+      "category": "新闻"
+    },
+    "sina-news": {
+      "enabled": false,
+      "name": "新浪新闻",
+      "category": "新闻"
+    },
+    "netease-news": {
+      "enabled": false,
+      "name": "网易新闻",
+      "category": "新闻"
+    },
+    "52pojie": {
+      "enabled": false,
+      "name": "吾爱破解",
+      "category": "技术"
+    },
+    "hostloc": {
+      "enabled": false,
+      "name": "全球主机交流",
+      "category": "技术"
+    },
+    "huxiu": {
+      "enabled": false,
+      "name": "虎嗅",
+      "category": "科技"
+    },
+    "coolapk": {
+      "enabled": false,
+      "name": "酷安",
+      "category": "科技"
+    },
+    "hupu": {
+      "enabled": false,
+      "name": "虎扑",
+      "category": "体育"
+    },
+    "ifanr": {
+      "enabled": false,
+      "name": "爱范儿",
+      "category": "科技"
+    },
+    "lol": {
+      "enabled": false,
+      "name": "英雄联盟",
+      "category": "游戏"
+    },
+    "miyoushe": {
+      "enabled": false,
+      "name": "米游社",
+      "category": "游戏"
+    },
+    "genshin": {
+      "enabled": false,
+      "name": "原神",
+      "category": "游戏"
+    },
+    "honkai": {
+      "enabled": false,
+      "name": "崩坏3",
+      "category": "游戏"
+    },
+    "starrail": {
+      "enabled": false,
+      "name": "崩坏星穹铁道",
+      "category": "游戏"
+    },
+    "weread": {
+      "enabled": false,
+      "name": "微信读书",
+      "category": "阅读"
+    },
+    "ngabbs": {
+      "enabled": false,
+      "name": "NGA",
+      "category": "游戏"
+    },
+    "hellogithub": {
+      "enabled": false,
+      "name": "HelloGitHub",
+      "category": "技术"
+    },
+    "weatheralarm": {
+      "enabled": false,
+      "name": "气象预警",
+      "category": "生活"
+    },
+    "earthquake": {
+      "enabled": false,
+      "name": "地震速报",
+      "category": "生活"
+    },
+    "history": {
+      "enabled": false,
+      "name": "历史上的今天",
+      "category": "生活"
+    },
+    "kuaishou": {
+      "enabled": false,
+      "name": "快手",
+      "category": "视频"
+    },
+    "zhihu-daily": {
+      "enabled": false,
+      "name": "知乎日报",
+      "category": "阅读"
+    },
+    "dgtle": {
+      "enabled": false,
+      "name": "数字尾巴",
+      "category": "科技"
+    },
+    "gameres": {
+      "enabled": false,
+      "name": "游戏研究社",
+      "category": "游戏"
+    },
+    "geekpark": {
+      "enabled": false,
+      "name": "极客公园",
+      "category": "科技"
+    },
+    "hackernews": {
+      "enabled": false,
+      "name": "Hacker News",
+      "category": "技术"
+    },
+    "linuxdo": {
+      "enabled": false,
+      "name": "Linux.do",
+      "category": "技术"
+    },
+    "newsmth": {
+      "enabled": false,
+      "name": "水木社区",
+      "category": "社交"
+    },
+    "nytimes": {
+      "enabled": false,
+      "name": "纽约时报",
+      "category": "新闻"
+    },
+    "producthunt": {
+      "enabled": false,
+      "name": "Product Hunt",
+      "category": "科技"
+    },
+    "smzdm": {
+      "enabled": false,
+      "name": "什么值得买",
+      "category": "购物"
+    },
+    "yystv": {
+      "enabled": false,
+      "name": "游研社",
+      "category": "游戏"
+    }
+  }
+}

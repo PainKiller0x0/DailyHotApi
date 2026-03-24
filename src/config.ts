@@ -18,6 +18,7 @@ export type Config = {
   REDIS_DB: number;
   ZHIHU_COOKIE: string;
   FILTER_WEIBO_ADVERTISEMENT: boolean;
+  ENABLED_ROUTES: string;
 };
 
 // 验证并提取环境变量
@@ -57,4 +58,5 @@ export const config: Config = {
   REDIS_DB:  getNumericEnvVariable("REDIS_DB", 0),
   ZHIHU_COOKIE: getEnvVariable("ZHIHU_COOKIE") || "",
   FILTER_WEIBO_ADVERTISEMENT: getBooleanEnvVariable("FILTER_WEIBO_ADVERTISEMENT", false),
+  ENABLED_ROUTES: getEnvVariable("ENABLED_ROUTES") || "",
 };
