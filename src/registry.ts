@@ -19,11 +19,22 @@ const excludeRoutes: Array<string> = [];
 
 // 加载路由配置
 const loadRoutesConfig = (): Record<string, { enabled: boolean; name: string; category: string }> => {
-  const configPath = path.join(__dirname, "routes.config.json");
-  if (fs.existsSync(configPath)) {
-    const configData = JSON.parse(fs.readFileSync(configPath, "utf-8"));
-    return configData.routes || {};
+  // 尝试从多个位置加载配置文件
+  const possiblePaths = [
+    path.join(__dirname, "routes.config.json"),  // dist 目录
+    path.join(__dirname, "..", "src", "routes.config.json"),  // src 目录
+    path.join(__dirname, "..", "routes.config.json"),  // 项目根目录
+  ];
+  
+  for (const configPath of possiblePaths) {
+    if (fs.existsSync(configPath)) {
+      const configData = JSON.parse(fs.readFileSync(configPath, "utf-8"));
+      console.log(`📋 Loaded routes config from: ${configPath}`);
+      return configData.routes || {};
+    }
   }
+  
+  console.warn("⚠️ routes.config.json not found, using default config");
   return {};
 };
 
